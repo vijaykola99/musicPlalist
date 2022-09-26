@@ -1,0 +1,124 @@
+.app-background {
+  background: #152850;
+  min-height: 100vh;
+  margin: 0px;
+  background-size: cover;
+}
+.background-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 400px;
+  background-size: cover;
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+.singer-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.input-container {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input {
+  background: transparent;
+  outline: none;
+  border: 0px;
+  padding-left: 20px;
+  color: #ffffff;
+  width: 17vw;
+}
+.songs-playlist-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+.search-icon {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.songs-playlist {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+}
+.unlist {
+  list-style-type: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 30vh;
+}
+.list-item {
+  width: 80vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.track-image {
+  height: 12vh;
+  width: 150px;
+  margin-right: 20px;
+}
+.image-name-genre {
+  display: flex;
+  flex-direction: row;
+}
+.track-name {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffffff;
+}
+.track-genre {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #3b82f6;
+}
+.track-delete {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.track-duration {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.track-delete-icon {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+}
+.delete-button {
+  background: transparent;
+  border: 0px;
+}
+.no-songs-found {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 90px;
+}
